@@ -14,6 +14,7 @@
 		FADAB19B21AAEE450039AFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADAB19921AAEE450039AFE1 /* LaunchScreen.storyboard */; };
 		FADAB1A621AAEE450039AFE1 /* ViewProgramactllyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAB1A521AAEE450039AFE1 /* ViewProgramactllyTests.swift */; };
 		FADAB1B121AAEE450039AFE1 /* ViewProgramactllyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAB1B021AAEE450039AFE1 /* ViewProgramactllyUITests.swift */; };
+		FADAB1BF21AAEE700039AFE1 /* VistaPersonalizada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAB1BE21AAEE700039AFE1 /* VistaPersonalizada.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FADAB1AC21AAEE450039AFE1 /* ViewProgramactllyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewProgramactllyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADAB1B021AAEE450039AFE1 /* ViewProgramactllyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProgramactllyUITests.swift; sourceTree = "<group>"; };
 		FADAB1B221AAEE450039AFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADAB1BE21AAEE700039AFE1 /* VistaPersonalizada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaPersonalizada.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FADAB19021AAEE400039AFE1 /* AppDelegate.swift */,
 				FADAB19221AAEE400039AFE1 /* ViewController.swift */,
+				FADAB1BE21AAEE700039AFE1 /* VistaPersonalizada.swift */,
 				FADAB19421AAEE400039AFE1 /* Main.storyboard */,
 				FADAB19721AAEE450039AFE1 /* Assets.xcassets */,
 				FADAB19921AAEE450039AFE1 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADAB1BF21AAEE700039AFE1 /* VistaPersonalizada.swift in Sources */,
 				FADAB19321AAEE400039AFE1 /* ViewController.swift in Sources */,
 				FADAB19121AAEE400039AFE1 /* AppDelegate.swift in Sources */,
 			);

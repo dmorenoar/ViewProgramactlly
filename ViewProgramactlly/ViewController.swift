@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Instancio la vista utilizando mi clase personalizada y le paso los atributos
+        let myView:UIView = VistaPersonalizada(frame: CGRect(x: 17 , y: 250, width: 100, height: 100), ataque: 22)
+        
+        self.view.addSubview(myView)
+        
+        
     }
 
 

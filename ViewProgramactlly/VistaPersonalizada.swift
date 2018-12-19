@@ -42,11 +42,11 @@ class VistaPersonalizada: UIView {
     }
 
     var statsView: UIView = {
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: 400, height: 200))
+        let view = UIView(frame: CGRect(x: -10, y: 0, width: 400, height: 200))
         
         view.backgroundColor = UIColor.green
         
-        let imageView:UIImageView = UIImageView(frame: CGRect(x: -10, y: 0, width: 400, height: 200))
+        let imageView:UIImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
         imageView.image = UIImage(named: "back_heroe")
         
         view.addSubview(imageView)
